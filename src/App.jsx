@@ -1,17 +1,20 @@
 //import { useState } from 'react'
 
-import './App.css'
+import { Link } from "react-router-dom"
 
-function App() {
+
+
+export default function App() {
 
   return (
-    <>
+
       <div>
         Voici mon portfolio
+        <Link to='/about'>About</Link>
       </div>
       
-    </>
+
   )
 }
 
-export default App
+
