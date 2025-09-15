@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Infinity";
+  src: url("./assets/fonts/MADEINFINITYBesidePersonalUse-Medium.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "InfinityBold";
+  src: url("./assets/fonts/MADEINFINITYBesidePersonalUse-Black.otf")
+    format("opentype");
+}
+
+:root {
+  --pink: hotpink;
+  --grey: #31302f;
+  --title-font: "Infinity";
+  --title-font-bold: "InfinityBold";
+  --fs-0: 10rem;
+  --fs-1: clamp(0.5rem, 4vw, 6rem);
+  --fs-2: clamp(0.5rem, 3vw, 3rem);
+  --fs-3: clamp(0.5rem, 2vw, 3rem);
+  --fs-4: clamp(0.5rem, 1.5vw, 3rem);
+  --fs-5: clamp(0.5rem, 1vw, 3rem);
+}

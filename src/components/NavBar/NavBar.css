@@ -1,0 +1,6 @@
+#navbar-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap:7vw;
+}

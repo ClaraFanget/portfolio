@@ -1,18 +1,20 @@
 //import { useState } from 'react'
-import './NavBar.css'
+import { Link } from "react-router-dom"
+import "./NavBar.css";
 
 
-
-export default function Projets() {
-
+export default function NavBar() {
   return (
-
-      <div>
-       Page Projets
+    <div id="navbar-container">
+      <div className="navbar-items">
+        <Link to="/projets">Projets</Link>
       </div>
-      
-
-  )
+      <div className="navbar-items">
+        <Link to="/contact">Contact</Link>
+      </div>
+      <div className="navbar-items">
+        <Link to="/about">About</Link>
+      </div>
+    </div>
+  );
 }
-
-
