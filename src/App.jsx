@@ -10,9 +10,9 @@ export default function App() {
   return (
 
       <div>
+      <NavBar/>
         Voici mon portfolio
-        <Link to='/about'>About</Link>
-        <NavBar/>
+        
       </div>
       
 
