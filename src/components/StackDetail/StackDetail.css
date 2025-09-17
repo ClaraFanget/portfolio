@@ -1,0 +1,10 @@
+.stack-detail-container {
+  background-color: rgba(92, 93, 95, 0.119);
+  display: inline-block;
+  text-align: center;
+  color: rgba(92, 93, 95, 1);
+  padding: 0.25vh 0.6vw;
+  font-family: var(--inter);
+  border-radius: 50px;
+  font-size: var(--font-size-2xs);
+}

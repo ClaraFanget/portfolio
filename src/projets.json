@@ -1,0 +1,8 @@
+[
+  {
+    "nom": "essai",
+    "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensuration de l'utilisateur",
+    "stack": ["React Native", "Node.js", "JavaScript", "MongoDB", "REST API"],
+    "img": "../src/assets/img/projet_1.png"
+  }
+]
