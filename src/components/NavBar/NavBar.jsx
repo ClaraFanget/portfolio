@@ -17,13 +17,13 @@ export default function NavBar() {
           </Link>
         </div>
         <div className="navbar-items">
-          <Link className="navbar-link" to="/contact">
-            Contact
+          <Link className="navbar-link" to="/about">
+            About
           </Link>
         </div>
         <div className="navbar-items">
-          <Link className="navbar-link" to="/about">
-            About
+          <Link className="navbar-link" to="/contact">
+            Contact
           </Link>
         </div>
       </div>

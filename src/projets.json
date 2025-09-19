@@ -1,8 +1,27 @@
 [
   {
-    "nom": "essai",
+    "nom": "Sewy",
     "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensuration de l'utilisateur",
-    "stack": ["React Native", "Node.js", "JavaScript", "MongoDB", "REST API"],
-    "img": "../src/assets/img/projet_1.png"
+    "stack": [
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST API",
+      "Postman"
+    ],
+    "img": "../src/assets/img/sewy.svg"
+  },
+  {
+    "nom": "Central Perk Adventures",
+    "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
+    "stack": ["HTML", "CSS", "JavaScript", "Swagger"],
+    "img": "../src/assets/img/central-perk-adventures.svg"
+  },
+  {
+    "nom": "Central Perk Adventures",
+    "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
+    "stack": ["HTML", "CSS", "JavaScript", "Swagger"],
+    "img": "../src/assets/img/central-perk-adventures.svg"
   }
 ]

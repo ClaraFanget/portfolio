@@ -4,14 +4,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 import About from "./pages/About.jsx";
-import Projets from "./pages/Projets.jsx";
+import Projets from "./pages/Projets/Projets.jsx";
 import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/about", element: <About /> },
   { path: "/projets", element: <Projets /> },
-  { path: "/contact", element: <Contact /> }
+  { path: "/contact", element: <Contact /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

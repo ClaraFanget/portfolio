@@ -8,7 +8,7 @@
   gap: 1.5vh;
   border-radius: 20px;
   background: #feffff;
-  box-shadow: 5px 8px 14.7px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.16);
 }
 
 #stack-container {
@@ -29,9 +29,9 @@
   border-radius: 20px;
 }
 #nom-container {
+  font-family: var(--title-font);
   font-size: var(--font-size-lg);
-  font-weight: var(--font-weight-bold);
-  color: var(--grey);
+  color: var(--dark-grey);
 }
 #info-projet-container {
   display: flex;
@@ -40,15 +40,17 @@
 }
 #en-savoir-plus-button {
   font-size: var(--font-size-xs);
-  border: 1px solid rgba(92, 93, 95, 1);
+  background-color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
   width: 40%;
   text-align: center;
   padding: 0.6vh 1vw;
   border-radius: 20px;
-  color: rgba(92, 93, 95, 1);
+  color: rgb(255, 255, 255);
   margin-top: 1vh;
 }
 #en-savoir-plus-button:hover {
-  background-color: rgba(92, 93, 95, 1);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: var(--grey);
+  cursor: pointer;
 }

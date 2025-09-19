@@ -16,7 +16,9 @@
 
 :root {
   --pink: hotpink;
-  --grey: #31302f;
+  --dark-grey: #31302f;
+  --grey: rgb(94, 93, 102);
+  --light-grey: rgb(228, 228, 231);
   --title-font: "Infinity";
   --title-font-bold: "InfinityBold";
   --corps: "Inter";
@@ -37,4 +39,5 @@
   --font-size-xl: clamp(1.5rem, 2vw, 2rem); /* 24px → 32px */
   --font-size-2xl: clamp(2rem, 2.5vw, 2.5rem); /* 32px → 40px */
   --font-size-3xl: clamp(2.5rem, 3vw, 3rem); /* 40px → 48px */
+  --font-size-4xl: clamp(3rem, 3.5vw, 3.5rem); /* 40px → 48px */
 }

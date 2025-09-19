@@ -1,0 +1,29 @@
+#projets-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  justify-content: center;
+}
+#page-projets-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  padding: 3vh 5vw;
+  align-items: center;
+}
+#description-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 73.5vw;
+}
+#nom-page {
+  font-family: var(--title-font);
+  font-size: var(--font-size-4xl);
+  color: var(--dark-grey);
+}
+#description-page {
+  font-family: var(--corps);
+  font-size: var(--font-size-md);
+  color: rgb(94, 93, 102);
+}
