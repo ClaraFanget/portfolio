@@ -1,0 +1,85 @@
+#contact-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 13vh;
+}
+
+#contact-text-container {
+  padding-top: 2vh;
+  font-family: var(--title-font);
+  font-size: var(--font-size-8xl);
+  text-align: center;
+}
+
+#contact-container {
+  font-family: var(--corps);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15vw;
+}
+
+#info-perso-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  gap: 3vh;
+}
+
+#email-utilisateur-container,
+#message-container {
+  display: flex;
+  flex-direction: column;
+}
+#name-utilisateur-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+.name-utilisateur-souscontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.form-input {
+  border-bottom: 1px solid var(--dark-grey);
+}
+#envoyer-bouton {
+  display: flex;
+  background-color: var(--dark-grey);
+  color: white;
+  width: 6vw;
+  padding: 1vh 4vw;
+  font-family: var(--corps);
+  justify-content: center;
+  border: 1px solid var(--dark-grey);
+  border-radius: 20px;
+}
+
+#envoyer-bouton:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--dark-grey);
+  cursor: pointer;
+}
+
+#message-container {
+  gap: 10vh;
+}
+#email-utilisateur-container,
+.name-utilisateur-souscontainer {
+  gap: 2vh;
+}

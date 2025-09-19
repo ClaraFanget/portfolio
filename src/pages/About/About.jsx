@@ -1,6 +1,7 @@
 //import { useState } from 'react'
 
-import NavBar from "../components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
+import "./About.css";
 
 export default function About() {
   return (

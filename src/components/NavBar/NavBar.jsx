@@ -12,6 +12,11 @@ export default function NavBar() {
       </div>
       <div id="navbar-container">
         <div className="navbar-items">
+          <Link className="navbar-link" to="/">
+            Accueil
+          </Link>
+        </div>
+        <div className="navbar-items">
           <Link className="navbar-link" to="/projets">
             Projets
           </Link>

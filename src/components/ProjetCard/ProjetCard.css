@@ -51,6 +51,6 @@
 }
 #en-savoir-plus-button:hover {
   background-color: rgb(255, 255, 255);
-  color: var(--grey);
+  color: var(--dark-grey);
   cursor: pointer;
 }

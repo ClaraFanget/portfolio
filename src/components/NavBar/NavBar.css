@@ -14,7 +14,7 @@
   flex-direction: row;
   flex: 1;
   gap: 7vw;
-  padding-right: 10vw;
+  padding-right: 2vw;
   justify-content: end;
 }
 .navbar-items {
