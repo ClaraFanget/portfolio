@@ -1,5 +1,14 @@
 [
   {
+    "nom": "Software Performing Art Gallery",
+    "description": "Développement d’une galerie d'art en ligne mettant en avant des œuvres génératives programmées en p5.js et réalisées dans le cadre du cours d’art algorithmique de l’Université de Montréal",
+    "stack": ["HTML", "CSS", "JavaScript", "p5.js", "GitHub Pages"],
+    "img": "../src/assets/img/SPA.png",
+    "termine": "true",
+    "type": "front-end",
+    "lien": "https://software-performing.art"
+  },
+  {
     "nom": "Sewy",
     "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensuration de l'utilisateur",
     "stack": [
@@ -10,18 +19,16 @@
       "REST API",
       "Postman"
     ],
-    "img": "../src/assets/img/sewy.svg"
+    "img": "../src/assets/img/sewy.svg",
+    "termine": "true",
+    "type": "full-stack"
   },
   {
     "nom": "Central Perk Adventures",
     "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
-    "stack": ["HTML", "CSS", "JavaScript", "Swagger"],
-    "img": "../src/assets/img/central-perk-adventures.svg"
-  },
-  {
-    "nom": "Central Perk Adventures",
-    "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
-    "stack": ["HTML", "CSS", "JavaScript", "Swagger"],
-    "img": "../src/assets/img/central-perk-adventures.svg"
+    "stack": ["React.js", "JavaScript", "Swagger"],
+    "img": "../src/assets/img/central-perk-adventures.svg",
+    "termine": "true",
+    "type": "front-end"
   }
 ]

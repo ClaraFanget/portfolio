@@ -19,11 +19,11 @@
 }
 #nom-page {
   font-family: var(--title-font);
-  font-size: var(--font-size-4xl);
+  font-size: var(--font-size-8xl);
   color: var(--dark-grey);
 }
 #description-page {
   font-family: var(--corps);
   font-size: var(--font-size-md);
-  color: rgb(94, 93, 102);
+  color: var(--grey);
 }

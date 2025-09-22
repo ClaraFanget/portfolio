@@ -34,10 +34,12 @@
 
 #email-utilisateur-container,
 #message-container {
+  color: var(--grey);
   display: flex;
   flex-direction: column;
 }
 #name-utilisateur-container {
+  color: var(--grey);
   display: flex;
   flex-direction: row;
   gap: 3vw;
@@ -49,12 +51,17 @@
 }
 input,
 textarea {
+  color: rgb(0, 0, 0);
   border: none;
   outline: none;
   background: none;
   padding: 0;
   margin: 0;
 }
+/* input:invalid {
+  border-bottom: 1px solid red;
+} */
+
 .form-input {
   border-bottom: 1px solid var(--dark-grey);
 }

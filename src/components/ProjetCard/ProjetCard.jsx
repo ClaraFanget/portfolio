@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import "./ProjetCard.css";
 import StackDetail from "../StackDetail/StackDetail";
+import LinkButton from "../LinkButton/LinkButton";
 
 export default function ProjetCard({ img, nom, description, stack }) {
   console.log(img);
@@ -23,6 +24,10 @@ export default function ProjetCard({ img, nom, description, stack }) {
           ))}
         </div>
       </div>
+      {/* <LinkButton
+        link="https://software-performing.art"
+        nom="Découvrir le projet"
+      /> */}
       <div id="en-savoir-plus-button">En savoir plus</div>
     </div>
   );

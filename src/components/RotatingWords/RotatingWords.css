@@ -1,0 +1,15 @@
+#dev-container {
+  display: flex;
+  flex-direction: row;
+  color: var(--dark-grey);
+  align-items: center;
+  gap: 0.5vw;
+  font-family: var(--title-font);
+  font-size: var(--font-size-8xl);
+  justify-content: center;
+}
+
+#word-container {
+  min-width: 6.5ch;
+  color: var(--pink);
+}
