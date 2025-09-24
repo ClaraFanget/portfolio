@@ -24,6 +24,14 @@
     "type": "Full-stack"
   },
   {
+    "nom": "Boutique Web",
+    "description": "Développement du back-end d’une boutique de vente en ligne",
+    "stack": ["C#", "ASP.NET Core", "Entity Framework"],
+    "img": "/portfolio/assets/img/boutique-web.png",
+    "termine": true,
+    "type": "Back-end"
+  },
+  {
     "nom": "Central Perk Adventures",
     "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
     "stack": ["React.js", "JavaScript", "Swagger"],
