@@ -1,5 +1,6 @@
 //import { useState } from 'react'
 
+import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import ProjetCard from "../../components/ProjetCard/ProjetCard";
 import projets from "../../projets.json";
@@ -17,7 +18,7 @@ export default function Projets() {
             développement web, mobile, fullstack qu'IA.
           </div>
         </div>
-        <div id="projets-container">
+        <div className="projets-container">
           {projets.map((projet, index) => (
             <ProjetCard
               key={index}
@@ -25,10 +26,12 @@ export default function Projets() {
               nom={projet.nom}
               description={projet.description}
               stack={projet.stack}
+              lien={projet.lien}
             />
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

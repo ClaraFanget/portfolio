@@ -1,4 +1,4 @@
-.link-attribute {
+/* .link-attribute {
   text-decoration: none;
   font-family: var(--corps);
   font-size: var(--font-size-md);
@@ -9,6 +9,21 @@
   padding: 0.8vh 1.5vw;
   border-radius: 20px;
   color: rgb(255, 255, 255);
+}
+
+.link-attribute:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--dark-grey);
+  cursor: pointer;
+} */
+.link-attribute {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: var(--corps);
+  border: 1px solid var(--dark-grey);
+  background-color: var(--dark-grey);
+  padding: 2vh 2vw;
+  border-radius: 5px;
 }
 
 .link-attribute:hover {

@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4vh;
-  background-color: antiquewhite;
+  gap: 5vh;
   height: 90vh;
 }
 #job-container {
@@ -20,12 +19,47 @@
   flex-direction: row;
   gap: 2vw;
 }
-#projets-en-cours-container {
-  background-color: aqua;
-  height: 80vh;
-  text-align: center;
-}
-#projets-en-cours {
+
+#title-projets-en-cours {
   font-family: var(--title-font);
   font-size: var(--font-size-8xl);
+  text-align: center;
+}
+#projets-en-cours-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  gap: 8vh;
+}
+
+#view-projets-link {
+  text-decoration: none;
+  color: var(--grey);
+  font-family: var(--corps);
+  border: 1px solid var(--light-grey);
+  padding: 2vh 2vw;
+  border-radius: 5px;
+}
+#view-projets-link:hover {
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
+#stack-component-container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  padding: 2vh;
+}
+
+.gallery-component {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  height: 25vh;
+  width: 70vw;
 }

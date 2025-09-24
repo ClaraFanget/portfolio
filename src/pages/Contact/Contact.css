@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 13vh;
+  padding-bottom: 10vh;
 }
 
 #contact-text-container {
@@ -62,7 +63,8 @@ textarea {
   border-bottom: 1px solid red;
 } */
 
-.form-input {
+.form-input,
+.form-input-message {
   border-bottom: 1px solid var(--dark-grey);
 }
 #envoyer-bouton {
@@ -83,10 +85,11 @@ textarea {
   cursor: pointer;
 }
 
-#message-container {
-  gap: 10vh;
+textarea {
+  height: 20vh;
+  font-size: var(--font-size-sm);
 }
-#email-utilisateur-container,
-.name-utilisateur-souscontainer {
-  gap: 2vh;
+.form-input {
+  height: 7vh;
+  font-size: var(--font-size-sm);
 }

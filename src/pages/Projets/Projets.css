@@ -1,4 +1,4 @@
-#projets-container {
+.projets-container {
   display: flex;
   flex-wrap: wrap;
   gap: 3vw;

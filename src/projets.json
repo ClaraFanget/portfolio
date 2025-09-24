@@ -4,7 +4,7 @@
     "description": "Développement d’une galerie d'art en ligne mettant en avant des œuvres génératives programmées en p5.js et réalisées dans le cadre du cours d’art algorithmique de l’Université de Montréal",
     "stack": ["HTML", "CSS", "JavaScript", "p5.js", "GitHub Pages"],
     "img": "../src/assets/img/SPA.png",
-    "termine": "true",
+    "termine": true,
     "type": "front-end",
     "lien": "https://software-performing.art"
   },
@@ -20,7 +20,7 @@
       "Postman"
     ],
     "img": "../src/assets/img/sewy.svg",
-    "termine": "true",
+    "termine": true,
     "type": "full-stack"
   },
   {
@@ -28,7 +28,15 @@
     "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
     "stack": ["React.js", "JavaScript", "Swagger"],
     "img": "../src/assets/img/central-perk-adventures.svg",
-    "termine": "true",
+    "termine": true,
     "type": "front-end"
+  },
+  {
+    "nom": "Snake",
+    "description": "Développement et entrainement d'une IA jouant au jeu snake par apprentissage renforcé ",
+    "stack": ["Python", "Je ne sais pas", "Je ne sais pas"],
+    "img": "../src/assets/img/central-perk-adventures.svg",
+    "termine": false,
+    "type": "ia"
   }
 ]

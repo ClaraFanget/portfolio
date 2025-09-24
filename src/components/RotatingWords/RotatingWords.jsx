@@ -12,9 +12,9 @@ export default function RotatingWords() {
     const interval = setInterval(() => {
       // Animation de sortie
       gsap.to(wordRef.current, {
-        duration: 0.2,
+        duration: 0.5,
         opacity: 0,
-        y: 0,
+        y: 10,
 
         onComplete: () => {
           // Changer le mot
@@ -23,7 +23,7 @@ export default function RotatingWords() {
           // Animation d'entrée
           gsap.fromTo(
             wordRef.current,
-            { opacity: 0, y: -10 },
+            { opacity: 0, y: -10, duration: 0.5 },
             { opacity: 1, y: 0, duration: 0.5 }
           );
         },

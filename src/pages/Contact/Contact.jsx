@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import NavBar from "../../components/NavBar/NavBar";
 import "./Contact.css";
+import Footer from "../../components/Footer/Footer";
 
 export default function Contact() {
   const form = useRef();
@@ -72,7 +73,11 @@ export default function Contact() {
 
               <div id="message-container">
                 <label>Message</label>
-                <textarea className="form-input" name="message" required />
+                <textarea
+                  className="form-input-message"
+                  name="message"
+                  required
+                />
               </div>
 
               <input id="envoyer-bouton" type="submit" value="Envoyer" />
@@ -80,6 +85,7 @@ export default function Contact() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

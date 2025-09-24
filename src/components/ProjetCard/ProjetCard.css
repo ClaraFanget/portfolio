@@ -39,6 +39,7 @@
   gap: 1rem;
 }
 #en-savoir-plus-button {
+  text-decoration: none;
   font-size: var(--font-size-xs);
   background-color: var(--dark-grey);
   border: 1px solid var(--dark-grey);

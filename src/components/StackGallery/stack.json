@@ -1,0 +1,61 @@
+[
+  {
+    "nom": "React Native",
+    "logo": "src/assets/img/logo/react.png",
+    "type": "front"
+  },
+  {
+    "nom": "React JS",
+    "logo": "src/assets/img/logo/react.png",
+    "type": "front"
+  },
+  {
+    "nom": "Javascript",
+    "logo": "src/assets/img/logo/js.png",
+    "type": "front"
+  },
+  { "nom": "CSS", "logo": "src/assets/img/logo/css.png", "type": "front" },
+  { "nom": "HTML", "logo": "src/assets/img/logo/html.png", "type": "front" },
+  { "nom": "Vite JS", "logo": "src/assets/img/logo/vite.png", "type": "front" },
+  {
+    "nom": "Node JS",
+    "logo": "src/assets/img/logo/node-js.png",
+    "type": "back"
+  },
+  { "nom": "Python", "logo": "src/assets/img/logo/python.png", "type": "back" },
+  {
+    "nom": "Express JS",
+    "logo": "src/assets/img/logo/express.png",
+    "type": "back"
+  },
+  {
+    "nom": "Mongo DB",
+    "logo": "src/assets/img/logo/mongodb.png",
+    "type": "back"
+  },
+  { "nom": "Expo", "logo": "src/assets/img/logo/expo.svg", "type": "tools" },
+  { "nom": "Git", "logo": "src/assets/img/logo/git.png", "type": "tools" },
+  {
+    "nom": "GitHub",
+    "logo": "src/assets/img/logo/github.png",
+    "type": "tools"
+  },
+  { "nom": "JWT", "logo": "src/assets/img/logo/jwt.svg", "type": "tools" },
+  {
+    "nom": "Postman",
+    "logo": "src/assets/img/logo/postman.png",
+    "type": "tools"
+  },
+
+  { "nom": ".NET 6", "logo": "src/assets/img/logo/NET.png", "type": "tools" },
+  {
+    "nom": "ASP.NET Core",
+    "logo": "src/assets/img/logo/ASP.NET.png",
+    "type": "tools"
+  },
+  {
+    "nom": "Entity Framework Core",
+    "logo": "src/assets/img/logo/entity-framework.png",
+    "type": "tools"
+  }
+]

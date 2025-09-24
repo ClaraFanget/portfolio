@@ -1,15 +1,9 @@
 //import { useState } from 'react'
 import { Link } from "react-router-dom";
 import "./ProjetCard.css";
-import StackDetail from "../StackDetail/StackDetail";
-import LinkButton from "../LinkButton/LinkButton";
+import StackDetail from "../StackChips/StackChips";
 
-export default function ProjetCard({ img, nom, description, stack }) {
-  console.log(img);
-  console.log(nom);
-  console.log(description);
-  console.log(stack);
-
+export default function ProjetCard({ img, nom, description, stack, lien }) {
   return (
     <div id="projet-container">
       <div id="img-container">
@@ -28,7 +22,16 @@ export default function ProjetCard({ img, nom, description, stack }) {
         link="https://software-performing.art"
         nom="Découvrir le projet"
       /> */}
-      <div id="en-savoir-plus-button">En savoir plus</div>
+      {lien && (
+        <a
+          id="en-savoir-plus-button"
+          href={lien}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Découvrir le projet
+        </a>
+      )}
     </div>
   );
 }
