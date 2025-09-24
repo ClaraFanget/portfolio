@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -14,26 +15,26 @@ export default function Footer() {
       <div className="footer-section-container">
         <div className="title-footer-section-container">Liens rapides</div>
         <div className="link-footer-section-container">
-          <a className="link-footer" href="/projets">
+          <Link className="link-footer" to="/projets">
             Projets
-          </a>
-          <a className="link-footer" href="/contact">
+          </Link>
+          <Link className="link-footer" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer-section-container">
         <div className="title-footer-section-container">Contact</div>
         <div className="icons-footer-section-container">
-          <a href="https://github.com/ClaraFanget">
+          <Link to="https://github.com/ClaraFanget">
             <FaGithub className="link-footer" />
-          </a>
-          <a href="https://www.linkedin.com/in/clara-fanget-94045029b/">
+          </Link>
+          <Link to="https://www.linkedin.com/in/clara-fanget-94045029b/">
             <FaLinkedin className="link-footer" />
-          </a>
-          <a href="mailto:clara.fanget@ensc.fr">
+          </Link>
+          <Link to="mailto:clara.fanget@ensc.fr">
             <FaEnvelope className="link-footer" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

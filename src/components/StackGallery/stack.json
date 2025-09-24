@@ -1,61 +1,61 @@
 [
   {
     "nom": "React Native",
-    "logo": "src/assets/img/logo/react.png",
-    "type": "front"
+    "logo": "/portfolio/assets/img/logo/react.png",
+    "type": "Front-End"
   },
   {
     "nom": "React JS",
-    "logo": "src/assets/img/logo/react.png",
-    "type": "front"
+    "logo": "/portfolio/assets/img/logo/react.png",
+    "type": "Front-End"
   },
   {
     "nom": "Javascript",
-    "logo": "src/assets/img/logo/js.png",
-    "type": "front"
+    "logo": "/portfolio/assets/img/logo/js.png",
+    "type": "Front-End"
   },
-  { "nom": "CSS", "logo": "src/assets/img/logo/css.png", "type": "front" },
-  { "nom": "HTML", "logo": "src/assets/img/logo/html.png", "type": "front" },
-  { "nom": "Vite JS", "logo": "src/assets/img/logo/vite.png", "type": "front" },
+  { "nom": "CSS", "logo": "/portfolio/assets/img/logo/css.png", "type": "Front-End" },
+  { "nom": "HTML", "logo": "/portfolio/assets/img/logo/html.png", "type": "Front-End" },
+  { "nom": "Vite JS", "logo": "/portfolio/assets/img/logo/vite.png", "type": "Front-End" },
   {
     "nom": "Node JS",
-    "logo": "src/assets/img/logo/node-js.png",
-    "type": "back"
+    "logo": "/portfolio/assets/img/logo/node-js.png",
+    "type": "Back-End"
   },
-  { "nom": "Python", "logo": "src/assets/img/logo/python.png", "type": "back" },
+  { "nom": "Python", "logo": "/portfolio/assets/img/logo/python.png", "type": "Back-End" },
   {
     "nom": "Express JS",
-    "logo": "src/assets/img/logo/express.png",
-    "type": "back"
+    "logo": "/portfolio/assets/img/logo/express.png",
+    "type": "Back-End"
   },
   {
     "nom": "Mongo DB",
-    "logo": "src/assets/img/logo/mongodb.png",
-    "type": "back"
+    "logo": "/portfolio/assets/img/logo/mongodb.png",
+    "type": "Back-End"
   },
-  { "nom": "Expo", "logo": "src/assets/img/logo/expo.svg", "type": "tools" },
-  { "nom": "Git", "logo": "src/assets/img/logo/git.png", "type": "tools" },
+  { "nom": "Expo", "logo": "/portfolio/assets/img/logo/expo.svg", "type": "Outils" },
+  { "nom": "Git", "logo": "/portfolio/assets/img/logo/git.png", "type": "Outils" },
   {
     "nom": "GitHub",
-    "logo": "src/assets/img/logo/github.png",
-    "type": "tools"
+    "logo": "/portfolio/assets/img/logo/github.png",
+    "type": "Outils"
   },
-  { "nom": "JWT", "logo": "src/assets/img/logo/jwt.svg", "type": "tools" },
+  { "nom": "JWT", "logo": "/portfolio/assets/img/logo/jwt.svg", "type": "Outils" },
   {
     "nom": "Postman",
-    "logo": "src/assets/img/logo/postman.png",
-    "type": "tools"
+    "logo": "/portfolio/assets/img/logo/postman.png",
+    "type": "Outils"
   },
 
-  { "nom": ".NET 6", "logo": "src/assets/img/logo/NET.png", "type": "tools" },
+  { "nom": ".NET 6", "logo": "/portfolio/assets/img/logo/NET.png", "type": "Outils" },
   {
     "nom": "ASP.NET Core",
-    "logo": "src/assets/img/logo/ASP.NET.png",
-    "type": "tools"
+    "logo": "/portfolio/assets/img/logo/ASP.NET.png",
+    "type": "Outils"
   },
   {
     "nom": "Entity Framework Core",
-    "logo": "src/assets/img/logo/entity-framework.png",
-    "type": "tools"
+    "logo": "/portfolio/assets/img/logo/entity-framework.png",
+    "type": "Outils"
   }
 ]

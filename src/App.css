@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 5vh;
-  height: 90vh;
+  height: 83vh;
 }
 #job-container {
   font-family: var(--corps);
@@ -13,6 +13,18 @@
   width: 40vw;
   text-align: center;
 }
+#mouse-img {
+  height: 6vh;
+  width: 6vh;
+  padding-bottom: 2vh;
+}
+#accueil-container {
+  border-bottom: 1px solid var(--light-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #buttons-container {
   display: flex;
@@ -20,17 +32,12 @@
   gap: 2vw;
 }
 
-#title-projets-en-cours {
-  font-family: var(--title-font);
-  font-size: var(--font-size-8xl);
-  text-align: center;
-}
 #projets-en-cours-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5vh;
+  padding-bottom: 8vh;
   gap: 8vh;
 }
 
@@ -47,19 +54,21 @@
   cursor: pointer;
 }
 #stack-component-container {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1vw;
+  gap: 2vw;
   padding: 2vh;
+}
+#ma-stack-container {
+  padding-bottom: 5vh;
 }
 
 .gallery-component {
   display: flex;
   flex-direction: row;
-  gap: 1vw;
-  height: 25vh;
+  gap: 2vw;
+  height: 30vh;
   width: 70vw;
 }

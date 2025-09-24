@@ -1,0 +1,22 @@
+.filter-container {
+  font-family: var(--corps);
+  border: 1px solid var(--light-grey);
+  color: var(--dark-grey);
+  padding: 0.8vh 1.3vw;
+  border-radius: 20px;
+  font-size: var(--font-size-sm);
+}
+.filter-container:hover {
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
+
+.filter-container-actif {
+  font-family: var(--corps);
+  border: 1px solid var(--light-grey);
+  color: var(--dark-grey);
+  padding: 0.8vh 1.3vw;
+  border-radius: 20px;
+  font-size: var(--font-size-sm);
+  background-color: var(--light-grey);
+}

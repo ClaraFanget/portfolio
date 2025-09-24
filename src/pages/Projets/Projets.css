@@ -27,3 +27,15 @@
   font-size: var(--font-size-md);
   color: var(--grey);
 }
+#filtres-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  width: 73.5vw;
+}
+#projets-filtres-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+}

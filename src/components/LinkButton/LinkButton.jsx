@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import "./LinkButton.css";
 
 export default function LinkButton({ link, nom }) {
   return (
     <div className="link-container">
-      <a className="link-attribute" href={link}>
+      <Link className="link-attribute" to={link}>
         {nom}
-      </a>
+      </Link>
     </div>
   );
 }

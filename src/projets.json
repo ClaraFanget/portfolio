@@ -1,16 +1,16 @@
 [
   {
     "nom": "Software Performing Art Gallery",
-    "description": "Développement d’une galerie d'art en ligne mettant en avant des œuvres génératives programmées en p5.js et réalisées dans le cadre du cours d’art algorithmique de l’Université de Montréal",
+    "description": "Développement d’une galerie d'art en ligne mettant en avant des œuvres d'art génératives programmées en p5.js et réalisées dans le cadre du cours d’art algorithmique de l’Université de Montréal",
     "stack": ["HTML", "CSS", "JavaScript", "p5.js", "GitHub Pages"],
-    "img": "../src/assets/img/SPA.png",
+    "img": "/portfolio/assets/img/SPA.png",
     "termine": true,
-    "type": "front-end",
+    "type": "Front-end",
     "lien": "https://software-performing.art"
   },
   {
     "nom": "Sewy",
-    "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensuration de l'utilisateur",
+    "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensurations de l'utilisateur",
     "stack": [
       "React Native",
       "Node.js",
@@ -19,23 +19,23 @@
       "REST API",
       "Postman"
     ],
-    "img": "../src/assets/img/sewy.svg",
+    "img": "/portfolio/assets/img/sewy.svg",
     "termine": true,
-    "type": "full-stack"
+    "type": "Full-stack"
   },
   {
     "nom": "Central Perk Adventures",
     "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
     "stack": ["React.js", "JavaScript", "Swagger"],
-    "img": "../src/assets/img/central-perk-adventures.svg",
+    "img": "/portfolio/assets/img/central-perk-adventures.svg",
     "termine": true,
-    "type": "front-end"
+    "type": "Front-end"
   },
   {
     "nom": "Snake",
     "description": "Développement et entrainement d'une IA jouant au jeu snake par apprentissage renforcé ",
     "stack": ["Python", "Je ne sais pas", "Je ne sais pas"],
-    "img": "../src/assets/img/central-perk-adventures.svg",
+    "img": "/portfolio/assets/img/central-perk-adventures.svg",
     "termine": false,
     "type": "ia"
   }

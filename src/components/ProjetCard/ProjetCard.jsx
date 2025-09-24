@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import "./ProjetCard.css";
 import StackDetail from "../StackChips/StackChips";
+import LinkButton from "../LinkButton/LinkButton";
 
 export default function ProjetCard({ img, nom, description, stack, lien }) {
   return (
@@ -23,14 +24,9 @@ export default function ProjetCard({ img, nom, description, stack, lien }) {
         nom="Découvrir le projet"
       /> */}
       {lien && (
-        <a
-          id="en-savoir-plus-button"
-          href={lien}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link id="en-savoir-plus-button" to={lien}>
           Découvrir le projet
-        </a>
+        </Link>
       )}
     </div>
   );

@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import "./RotatingWords.css";
 
-const words = ["Front-end", "Back-end", "IA", "Full-stack"];
+const words = ["Front-end", "Back-end", "Full-stack"];
 
 export default function RotatingWords() {
   const wordRef = useRef(null);
@@ -10,17 +10,14 @@ export default function RotatingWords() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      // Animation de sortie
       gsap.to(wordRef.current, {
         duration: 0.5,
         opacity: 0,
         y: 10,
 
         onComplete: () => {
-          // Changer le mot
           setIndex((prev) => (prev + 1) % words.length);
 
-          // Animation d'entrée
           gsap.fromTo(
             wordRef.current,
             { opacity: 0, y: -10, duration: 0.5 },

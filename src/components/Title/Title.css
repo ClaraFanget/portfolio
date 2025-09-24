@@ -1,0 +1,5 @@
+.title {
+  font-family: var(--title-font);
+  font-size: var(--font-size-8xl);
+  text-align: center;
+}

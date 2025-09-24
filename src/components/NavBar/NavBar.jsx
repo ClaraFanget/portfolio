@@ -6,20 +6,20 @@ export default function NavBar() {
   return (
     <div id="header-container">
       <div id="name-container">
-        <a id="name-link" href="/">
+        <Link id="name-link" to="/">
           Clara Fanget
-        </a>
+        </Link>
       </div>
       <div id="navbar-container">
         <div className="navbar-items">
-          <a className="navbar-link" href="/">
+          <Link className="navbar-link" to="/">
             Accueil
-          </a>
+          </Link>
         </div>
         <div className="navbar-items">
-          <a className="navbar-link" href="/projets">
+          <Link className="navbar-link" to="/projets">
             Projets
-          </a>
+          </Link>
         </div>
         {/* <div className="navbar-items">
           <Link className="navbar-link" to="/about">
@@ -27,9 +27,9 @@ export default function NavBar() {
           </Link>
         </div> */}
         <div className="navbar-items">
-          <a className="navbar-link" href="/contact">
+          <Link className="navbar-link" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </div>
