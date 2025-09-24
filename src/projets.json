@@ -34,9 +34,9 @@
   {
     "nom": "Snake",
     "description": "Développement et entrainement d'une IA jouant au jeu snake par apprentissage renforcé ",
-    "stack": ["Python", "Je ne sais pas", "Je ne sais pas"],
-    "img": "/portfolio/assets/img/central-perk-adventures.svg",
+    "stack": ["Python"],
+    "img": "/portfolio/assets/img/inprogress.png",
     "termine": false,
-    "type": "ia"
+    "type": "Full-stack"
   }
 ]
