@@ -11,6 +11,7 @@ export default function Contact() {
   const navigate = useNavigate();
   const sendEmail = (e) => {
     e.preventDefault();
+    setActive(true);
 
     emailjs
       .sendForm(
@@ -28,6 +29,7 @@ export default function Contact() {
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setActive(false);
         }
       );
   };
@@ -91,8 +93,6 @@ export default function Contact() {
                 onClick={(e) => {
                   if (active) {
                     e.preventDefault();
-                  } else {
-                    setActive(true);
                   }
                 }}
               />
