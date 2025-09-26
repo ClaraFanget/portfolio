@@ -7,6 +7,7 @@ import About from "./pages/About/About.jsx";
 import Projets from "./pages/Projets/Projets.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import Success from "./pages/Successfully-send/Success.jsx";
 
 const router = createBrowserRouter(
   [
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         { path: "/about", element: <About /> },
         { path: "/projets", element: <Projets /> },
         { path: "/contact", element: <Contact /> },
+        { path: "/success", element: <Success /> },
       ],
     },
   ],

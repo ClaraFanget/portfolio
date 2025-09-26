@@ -1,14 +1,15 @@
-#contact-page-container {
+.contact-page-container {
   display: flex;
   flex-direction: column;
   gap: 13vh;
   padding-bottom: 10vh;
 }
 
-#contact-text-container {
+.contact-text-container {
   padding-top: 2vh;
   font-family: var(--title-font);
   font-size: var(--font-size-8xl);
+  color: var(--dark-grey);
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ textarea {
 .form-input-message {
   border-bottom: 1px solid var(--dark-grey);
 }
-#envoyer-bouton {
+#bouton-default-style {
   display: flex;
   background-color: var(--dark-grey);
   color: white;
@@ -79,10 +80,22 @@ textarea {
   border-radius: 20px;
 }
 
-#envoyer-bouton:hover {
+#bouton-default-style:hover {
   background-color: rgb(255, 255, 255);
   color: var(--dark-grey);
   cursor: pointer;
+}
+#bouton-active-style {
+  display: flex;
+  background-color: var(--grey);
+  color: white;
+  width: 6vw;
+  padding: 1vh 4vw;
+  font-family: var(--corps);
+  justify-content: center;
+  border: 1px solid var(--grey);
+  border-radius: 20px;
+  cursor: default;
 }
 
 textarea {

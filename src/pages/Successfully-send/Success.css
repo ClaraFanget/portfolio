@@ -1,0 +1,26 @@
+#success-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: center;
+  height: 25vh;
+}
+#boutons-retour-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+#gif {
+  height: 10vh;
+}
+#message-success-container {
+  font-family: var(--corps);
+  font-size: var(--font-size-md);
+  color: var(--dark-grey);
+  font-weight: var(--font-weight-medium);
+}
+#message-redirection-container {
+  font-family: var(--corps);
+  font-size: var(--font-size-sm);
+  color: var(--grey);
+}

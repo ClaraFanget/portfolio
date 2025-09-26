@@ -13,15 +13,16 @@
     "description": "Développement d'une application native permettant de générer des patrons de couture au format PDF en fonction des mensurations de l'utilisateur",
     "stack": [
       "React Native",
-      "Node.js",
-      "Express.js",
+      "Node JS",
+      "Express JS",
       "MongoDB",
       "REST API",
       "Postman"
     ],
     "img": "/portfolio/assets/img/sewy.svg",
     "termine": true,
-    "type": "Full-stack"
+    "type": "Full-stack",
+    "lien": "https://github.com/ClaraFanget/Sewy"
   },
   {
     "nom": "Boutique Web",
@@ -29,20 +30,21 @@
     "stack": ["C#", "ASP.NET Core", "Entity Framework"],
     "img": "/portfolio/assets/img/boutique-web.png",
     "termine": true,
-    "type": "Back-end"
+    "type": "Back-end",
+    "lien": "https://github.com/ClaraFanget/BoutiqueWeb"
   },
   {
     "nom": "Central Perk Adventures",
     "description": "Développement d'un site web permettant aux administrateurs et aux utilisateurs de gérer et d'explorer un parc d'attraction, à partir d'informations issues d'une API externe",
-    "stack": ["React.js", "JavaScript", "Swagger"],
+    "stack": ["React JS", "JavaScript", "Swagger"],
     "img": "/portfolio/assets/img/central-perk-adventures.svg",
     "termine": true,
     "type": "Front-end"
   },
   {
-    "nom": "Snake",
-    "description": "Développement et entrainement d'une IA jouant au jeu snake par apprentissage renforcé ",
-    "stack": ["Python"],
+    "nom": "Fridgy",
+    "description": "Développement d'une application native permettant de scanner ses courses, puis de proposer des recettes basées sur le contenu de son frigo en tenant compte des dates de péremption des aliments",
+    "stack": ["React Native", "Nest JS", "Mongo DB"],
     "img": "/portfolio/assets/img/inprogress.png",
     "termine": false,
     "type": "Full-stack"

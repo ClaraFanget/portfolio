@@ -14,15 +14,36 @@
     "logo": "/portfolio/assets/img/logo/js.png",
     "type": "Front-End"
   },
-  { "nom": "CSS", "logo": "/portfolio/assets/img/logo/css.png", "type": "Front-End" },
-  { "nom": "HTML", "logo": "/portfolio/assets/img/logo/html.png", "type": "Front-End" },
-  { "nom": "Vite JS", "logo": "/portfolio/assets/img/logo/vite.png", "type": "Front-End" },
+  {
+    "nom": "CSS",
+    "logo": "/portfolio/assets/img/logo/css.png",
+    "type": "Front-End"
+  },
+  {
+    "nom": "HTML",
+    "logo": "/portfolio/assets/img/logo/html.png",
+    "type": "Front-End"
+  },
+  {
+    "nom": "Vite JS",
+    "logo": "/portfolio/assets/img/logo/vite.png",
+    "type": "Front-End"
+  },
   {
     "nom": "Node JS",
     "logo": "/portfolio/assets/img/logo/node-js.png",
     "type": "Back-End"
   },
-  { "nom": "Python", "logo": "/portfolio/assets/img/logo/python.png", "type": "Back-End" },
+  {
+    "nom": "Nest JS",
+    "logo": "/portfolio/assets/img/logo/nest.svg",
+    "type": "Back-End"
+  },
+  {
+    "nom": "Python",
+    "logo": "/portfolio/assets/img/logo/python.png",
+    "type": "Back-End"
+  },
   {
     "nom": "Express JS",
     "logo": "/portfolio/assets/img/logo/express.png",
@@ -33,21 +54,37 @@
     "logo": "/portfolio/assets/img/logo/mongodb.png",
     "type": "Back-End"
   },
-  { "nom": "Expo", "logo": "/portfolio/assets/img/logo/expo.svg", "type": "Outils" },
-  { "nom": "Git", "logo": "/portfolio/assets/img/logo/git.png", "type": "Outils" },
+  {
+    "nom": "Expo",
+    "logo": "/portfolio/assets/img/logo/expo.svg",
+    "type": "Outils"
+  },
+  {
+    "nom": "Git",
+    "logo": "/portfolio/assets/img/logo/git.png",
+    "type": "Outils"
+  },
   {
     "nom": "GitHub",
     "logo": "/portfolio/assets/img/logo/github.png",
     "type": "Outils"
   },
-  { "nom": "JWT", "logo": "/portfolio/assets/img/logo/jwt.svg", "type": "Outils" },
+  {
+    "nom": "JWT",
+    "logo": "/portfolio/assets/img/logo/jwt.svg",
+    "type": "Outils"
+  },
   {
     "nom": "Postman",
     "logo": "/portfolio/assets/img/logo/postman.png",
     "type": "Outils"
   },
 
-  { "nom": ".NET 6", "logo": "/portfolio/assets/img/logo/NET.png", "type": "Outils" },
+  {
+    "nom": ".NET 6",
+    "logo": "/portfolio/assets/img/logo/NET.png",
+    "type": "Outils"
+  },
   {
     "nom": "ASP.NET Core",
     "logo": "/portfolio/assets/img/logo/ASP.NET.png",

@@ -1,11 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import NavBar from "../../components/NavBar/NavBar";
 import "./Contact.css";
 import Footer from "../../components/Footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 export default function Contact() {
+  const [active, setActive] = useState(false);
   const form = useRef();
+  const navigate = useNavigate();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,6 +23,7 @@ export default function Contact() {
       )
       .then(
         () => {
+          navigate("/success");
           console.log("SUCCESS!");
         },
         (error) => {
@@ -31,8 +35,8 @@ export default function Contact() {
   return (
     <div>
       <NavBar />
-      <div id="contact-page-container">
-        <div id="contact-text-container">Me contacter</div>
+      <div className="contact-page-container">
+        <div className="contact-text-container">Me contacter</div>
         <div id="contact-container">
           <div id="info-perso-container">
             <div id="localisation-container">Paris, France</div>
@@ -80,7 +84,18 @@ export default function Contact() {
                 />
               </div>
 
-              <input id="envoyer-bouton" type="submit" value="Envoyer" />
+              <input
+                id={active ? "bouton-active-style" : "bouton-default-style"}
+                type="submit"
+                value={active ? "Envoi..." : "Envoyer"}
+                onClick={(e) => {
+                  if (active) {
+                    e.preventDefault();
+                  } else {
+                    setActive(true);
+                  }
+                }}
+              />
             </div>
           </form>
         </div>
