@@ -48,20 +48,20 @@ export default function Contact() {
             <div id="form-container">
               <div id="name-utilisateur-container">
                 <div className="name-utilisateur-souscontainer">
-                  <label>Nom</label>
-                  <input
-                    className="form-input"
-                    type="text"
-                    name="nom"
-                    required
-                  />
-                </div>
-                <div className="name-utilisateur-souscontainer">
                   <label>Prénom</label>
                   <input
                     className="form-input"
                     type="text"
                     name="prenom"
+                    required
+                  />
+                </div>
+                <div className="name-utilisateur-souscontainer">
+                  <label>Nom</label>
+                  <input
+                    className="form-input"
+                    type="text"
+                    name="nom"
                     required
                   />
                 </div>
